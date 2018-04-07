@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "name": "shared-config-babel",
+  "workspaces": [
+    "packages/*"
+  ]
+}
