@@ -7,4 +7,5 @@ The projects are just examples for my wiki. Please read the wiki so that you can
 
 This project contains two examples. One example uses typescript and the other example uses babel to transpile to javascript. Checkout the subfolder you prefer!
 
-
+For updates, you can star this project and also follow me on twitter!
+[https://twitter.com/danielbisch](https://twitter.com/danielbisch)
