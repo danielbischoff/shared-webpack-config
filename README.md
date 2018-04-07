@@ -13,7 +13,7 @@ git clone https://github.com/danielbischoff/shared-webpack-config.git
 cd shared-webpack-config
 cd js-babel # or cd typescript
 yarn install
-cd app
+cd packages/app
 yarn start # starts a dev server at port 9000
 ```
 
