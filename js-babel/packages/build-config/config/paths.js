@@ -12,6 +12,4 @@ module.exports = {
   appHtml: resolveApp('src/index.html'),
   appSrc: resolveApp('src'),
   babelrc: path.resolve(__dirname, '../.babelrc'),
-  testsSetup: path.resolve(__dirname, '../test/setupTests.js'),
-  testFileMock: path.resolve(__dirname, '../test/fileMock.js'),
 };
