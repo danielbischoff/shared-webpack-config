@@ -23,10 +23,12 @@ devServer.listen(PORT, HOST, err => {
   console.log(`dev server listening on http://${HOST}:${PORT}`);
 });
 
-
 ['SIGINT', 'SIGTERM'].forEach(function(sig) {
   process.on(sig, function() {
     devServer.close();
     process.exit();
   });
 });
+
+const spawn = require('cross-spawn');
+spawn('electron', ['http://${HOST}:${PORT}']);

@@ -22,11 +22,11 @@ export const Button = styled.button`
   &:focus {
     outline: none;
   }
-`
+`;
 
 export const NumberDisplay = styled.div`
   margin: 20px;
   width: 50px;
   font-size: 36px;
   text-align: center;
-`
+`;
