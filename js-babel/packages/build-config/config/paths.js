@@ -14,7 +14,8 @@ module.exports = {
   appHtml: resolveApp('src/index.html'),
   appSrc: resolveApp('src'),
   babelrc: path.resolve(__dirname, '../.babelrc'),
+  jestConfig: path.resolve(__dirname, 'jest.config.js'),
   testsSetup: resolveTest('setupTests.js'),
   testFileMock: resolveTest('fileMock.js'),
-  jestPreprocessor: resolveTest('jestPreprocessor.js')
+  jestPreprocessor: resolveTest('jestPreprocessor.js'),
 };

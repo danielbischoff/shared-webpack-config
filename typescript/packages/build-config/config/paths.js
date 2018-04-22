@@ -12,6 +12,7 @@ module.exports = {
   appIndexTsx: resolveApp('src/index.tsx'),
   appSrc: resolveApp('src'),
   appTsConfig: path.resolve(__dirname, 'tsconfig.json'),
+  jestConfig: path.resolve(__dirname, 'jest.config.js'),
   testsSetup: path.resolve(__dirname, '../test/setupTests.js'),
   testFileMock: path.resolve(__dirname, '../test/fileMock.js'),
 };
