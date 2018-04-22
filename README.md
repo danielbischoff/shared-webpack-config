@@ -7,6 +7,15 @@ The projects are just examples for my wiki tutortial. Please read the wiki so th
 
 This project contains two examples. One example uses typescript and the other example uses babel to transpile to javascript. Checkout the subfolder you prefer!
 
+## Supported features
+Both configs (typescript and babel) support the following features
+- React
+- Mobx
+- styled-components
+- Hot reloading
+- Testing with jest and enzyme
+- Webpack 4
+
 ## How to run
 ```shell
 git clone https://github.com/danielbischoff/shared-webpack-config.git
