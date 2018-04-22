@@ -6,6 +6,5 @@ const paths = require('../config/paths');
 
 const argv = [];
 argv.push('--config', paths.jestConfig);
-argv.push('--no-cache');
 
 jest.run(argv);
